@@ -4,6 +4,6 @@ A function $f : D \subseteq \mathbf{R}^{n}_{++} \to \mathbf{R}$ is said to be **
 ```
 
 
-A function $f : D \subseteq \mathbf{R}^{n}_{++} \to \mathbf{R}$ is said to be **log-log convex** if the function $F(u)=\log f(e^u)$, with domain $\{u \in \mathbf{R}^n : e^u \in D\}$, is convex (where $\mathbf{R}^{n}_{++}$ denotes the set of positive reals and the logarithm and exponential are meant elementwise); the function $F$ is called the log-log transformation of $f$. The function $f$ is **log-log concave** if $F$ is concave, and it is **log-log affine** if $F$ is affine.
+A function $$f : D \subseteq \mathbf{R}^{n}_{++} \to \mathbf{R}$$ is said to be **log-log convex** if the function $F(u)=\log f(e^u)$, with domain $\{u \in \mathbf{R}^n : e^u \in D\}$, is convex (where $\mathbf{R}^{n}_{++}$ denotes the set of positive reals and the logarithm and exponential are meant elementwise); the function $F$ is called the log-log transformation of $f$. The function $f$ is **log-log concave** if $F$ is concave, and it is **log-log affine** if $F$ is affine.
 
 ----
