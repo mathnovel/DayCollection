@@ -49,7 +49,7 @@ However, these may be avoided where they are considered obvious from the context
 It is convenient to separate predictions into the part which is known and the part which is yet to be determined.
 
 <img src="./img/14.png" />
-
+<img src="./img/15.png" />
 >The aim will be to choose the `unknown` inputs to ensure that the overall prediction is satisfactory. 
 
 # Summary
@@ -58,3 +58,33 @@ It is common to use discrete models for prediction.
 This video has shown how state space models can be used to form n-step ahead predictions.
 It is also shown how predictions can be separated into known parts (based on measurements) and unknown parts (based on decision variables yet to be selected).
 There was an implicit assumption that the state is known whereas in practice one may need an observer for this.
+
+
+# Vector of vectors notation 向量形式的表示法
+
+
+A simple arrow notation captures the impression that a vector represents a set of predictions.
+This a vector of vectors as each component may be a vector in itself.
+
+<img src="./img/16.png" />
+
+Using the ‘arrow’ notation, one can quickly see the following:
+
+<img src="./img/17.png" />
+
+Separating into past and decision variables gives
+
+<img src="./img/18.png" />
+
+Separating model parameters and data using matrix multiplication the predictions can be expressed as:
+<img src="./img/19.png" />
+
+# Compact prediction notation  更加紧凑的表示
+
+Giving compact names for all the  terms included here, the predictions reduce as follows:
+
+<img src="./img/21.png" />
+
+包含了噪音的完整形式
+
+<img src="./img/22.png" />
